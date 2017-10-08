@@ -38,8 +38,8 @@ mvp_stats = np.genfromtxt('data/mvps.csv', delimiter=',', skip_header=1,
 
 #mvp era weightage (/1)
 dfp_weight = 0.20
-lbj_weight = 0.33
-tpr_weight = 0.47
+lbj_weight = 0.30
+tpr_weight = 0.50
 
 def blueprint():
 	mvp_amt = len(mvp_stats)
