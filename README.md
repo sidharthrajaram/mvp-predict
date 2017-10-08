@@ -2,7 +2,10 @@
 Predicting the 2017-2018  NBA MVP
 
 ### preseason predictions
-:rocket: **James Harden** has the best probability (40%) of winning MVP. **Kevin Durant and Kawhi Leonard and Anthony Davis** tied for 2nd with (20% each).
+
+| `James Harden` | `Kevin Durant` | `Anthony Davis` | `Kawhi Leonard` |
+|:---:|:---:|:---:|:---:|
+| 40% | 20% | 20% | 20% |
 
 ### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
 
