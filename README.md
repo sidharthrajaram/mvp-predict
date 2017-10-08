@@ -1,11 +1,11 @@
 # mvp-predict (predictions updated weekly)
 Predicting the 2017-2018  NBA MVP
 
-### preseason predictions
+### preseason predictions (chances of the top 2 candidates)
 
 | `James Harden` | `Kevin Durant` | `Anthony Davis` | `Kawhi Leonard` |
 |:---:|:---:|:---:|:---:|
-| 40% | 20% | 20% | 20% |
+| 40%(1) | 20%(2) | 20%(2) | 20%(2) |
 
 ### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
 
