@@ -15,10 +15,12 @@ for row in playerReader:
 test_indices = [17, 225, 217, 157, 104, 125, 445, 474, 271, 451, 179, 106, 469, 367, 14, 54, 76, 89, 90, 73, 422, 312, 27, 
 43, 44, 78, 99, 105, 189, 192, 33, 65, 67, 88, 80, 21, 18, 24, 362, 277, 234, 431, 321, 1, 3]
 
+mvp_pool = [17, 18, 56, 72, 97, 104, 106, 109, 125, 157, 162, 171, 175, 179, 192, 217, 225, 271, 
+276, 284, 367, 381, 451, 469, 474, 478, ]
 # test_indices = [17, 225, 217, 192, 189, 73, 104]
 
-eligibility = 90
-player_percentile = 85
+eligibility = 10
+player_percentile = 50
 
 players = []
 
@@ -42,9 +44,9 @@ filt_bpm_players = []
 
 def doAllThings():
 	#DATA COLLECTION
-	# for i in test_indices:
+	for i in mvp_pool:
 		# print("boi")
-	for i in range(len(raw_players)):
+	# for i in range(len(raw_players)):
 		try:
 			player = raw_players[i]
 			player_stats = statRetrieval(player)

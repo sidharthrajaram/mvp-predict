@@ -159,7 +159,7 @@ def statRetrieval(player):
 if __name__ == "__main__":
 
 	# try:
-	data = statRetrieval("qunicy pondexter")
+	data = statRetrieval("Kevin Durant")
 	print()
 	print(data)
 	# except:
