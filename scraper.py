@@ -35,7 +35,7 @@ def statRetrieval(player):
 		else:
 			url = prelim_url
 
-		#print("Accessing",url)
+		print("Accessing",url)
 
 		# url = ""
 		player_feature_tensor = []
@@ -49,9 +49,10 @@ def statRetrieval(player):
 
 		soup = BeautifulSoup(content, 'html.parser')
 		tables = soup.findAll('table')
+		# print(tables)
 
 		#boiler plate but whatever "len(reg_table_rows)-2" is used for LATEST YEAR STATS
-		reg_table_rows = tables[1].findAll('tr')
+		reg_table_rows = tables[0].findAll('tr')
 		reg_data = reg_table_rows[len(reg_table_rows)-2].findAll('td')
 
 		found_reg_data = False
@@ -85,7 +86,7 @@ def statRetrieval(player):
 
 		#SANDBOX END *******************************************************
 
-		adv_table_rows = tables[5].findAll('tr')
+		adv_table_rows = tables[4].findAll('tr')
 		adv_data = adv_table_rows[len(adv_table_rows)-2].findAll('td')
 
 
