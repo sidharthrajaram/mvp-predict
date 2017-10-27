@@ -1,6 +1,12 @@
 # mvp-predict (predictions updated weekly)
 Predicting the 2017-2018  NBA MVP
 
+### week 1 predictions (top 3 after one week of NBA)
+
+| `Giannis Antetokounmpo` | `Blake Griffin` | `LeBron James` |
+|:---:|:---:|:---:|
+| 30%(1) | 20%(2) | 10%(3) |
+
 ### preseason predictions (chances of the top 2 candidates)
 
 | `James Harden` | `Kevin Durant` | `Anthony Davis` | `Kawhi Leonard` |
