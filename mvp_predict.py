@@ -16,7 +16,7 @@ test_indices = [17, 225, 217, 157, 104, 125, 445, 474, 271, 451, 179, 106, 469, 
 43, 44, 78, 99, 105, 189, 192, 33, 65, 67, 88, 80, 21, 18, 24, 362, 277, 234, 431, 321, 1, 3]
 
 mvp_pool = [17, 18, 56, 72, 97, 104, 106, 109, 125, 157, 162, 171, 175, 179, 192, 217, 225, 271, 
-276, 284, 367, 381, 451, 469, 474, 478, ]
+276, 284, 367, 381, 451, 469, 474, 478, 421]
 # test_indices = [17, 225, 217, 192, 189, 73, 104]
 
 eligibility = 10
@@ -45,20 +45,17 @@ filt_bpm_players = []
 def doAllThings():
 	#DATA COLLECTION
 	for i in mvp_pool:
-		# print("boi")
 	# for i in range(len(raw_players)):
 		try:
 			player = raw_players[i]
 			player_stats = statRetrieval(player)
 			player = Player(player,player_stats)
 			players.append(player)
-			# print(player.getName())
-			# print(player.getStats())
 
 		except:
 			pass
 
-	#players now has player stats and names
+	#players now has player objects with stats and names
 
 	mpg = []
 

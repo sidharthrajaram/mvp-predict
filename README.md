@@ -3,7 +3,7 @@ Current frontrunner: Giannis Antetokounmpo
 
 ### week 1 predictions (top 3 after one week of NBA)
 
-| :goat: `Giannis Antetokounmpo` | :boat: `Blake Griffin` | :crown: `LeBron James` |
+| :goat: `Giannis Antetokounmpo` | :trophy: `Stephen Curry` | :boat: `Blake Griffin` |
 |:---:|:---:|:---:|
 | 30%(1) | 20%(2) | 10%(3) |
 
