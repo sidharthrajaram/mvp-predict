@@ -1,11 +1,14 @@
 # Predicting the 2017-2018 NBA MVP (predictions updated weekly)
 Current frontrunner: Giannis Antetokounmpo
 
-<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&w=350&h=254" width="175" height="127">
+<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&w=350&h=254" width="18" height="13">
 
 ### week 1 predictions (top 3 after one week of NBA)
 
-| :goat: `Giannis Antetokounmpo` | :trophy: `Stephen Curry` | :boat: `Blake Griffin` |
+| <img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&w=350&h=254" width="18" height="13">
+ `Giannis Antetokounmpo` | <img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3975.png&w=350&h=254" width="18" height="13">
+ `Stephen Curry` | <img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3989.png&w=350&h=254" width="18" height="13">
+ `Blake Griffin` |
 |:---:|:---:|:---:|
 | 30%(1) | 20%(2) | 10%(3) |
 
