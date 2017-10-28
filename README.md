@@ -3,7 +3,7 @@ Predicting the 2017-2018  NBA MVP
 
 ### week 1 predictions (top 3 after one week of NBA)
 
-| `Giannis Antetokounmpo` | `Blake Griffin` | `LeBron James` |
+| :goat: `Giannis Antetokounmpo` | :boat: `Blake Griffin` | :crown: `LeBron James` |
 |:---:|:---:|:---:|
 | 30%(1) | 20%(2) | 10%(3) |
 
