@@ -1,5 +1,5 @@
-# mvp-predict (predictions updated weekly)
-Predicting the 2017-2018  NBA MVP
+# Predicting the 2017-2018 NBA MVP (predictions updated weekly)
+Current frontrunner: Giannis Antetokounmpo
 
 ### week 1 predictions (top 3 after one week of NBA)
 
