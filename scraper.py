@@ -9,7 +9,6 @@ from io import StringIO
 import numpy as np
 import re
 
-DATA_FILE = "scraped_stats.csv"
 TABLES = False
 
 my_api_key = "AIzaSyD6xN70JSDmf6O2EU_00XIM3JBR5pH3GFk" #KEY EXPIRED Lol m8s
@@ -51,7 +50,8 @@ def statRetrieval(player):
 		tables = soup.findAll('table')
 		# print(tables)
 
-		#boiler plate but whatever "len(reg_table_rows)-2" is used for LATEST YEAR STATS
+
+		#Per Game Regular Stats
 		reg_table_rows = tables[0].findAll('tr')
 		reg_data = reg_table_rows[len(reg_table_rows)-2].findAll('td')
 
@@ -62,30 +62,18 @@ def statRetrieval(player):
 				if(found_reg_data != True):
 					reg_data = reg_table_rows[d].findAll('td')
 					reg_data_next = reg_table_rows[d+1].findAll('td')
-					# print()
-					# print(reg_data[20:])
-					# print()
-					# print(reg_data[0].text)
+
 					if(reg_data_next[0].text == ''):
 						found_reg_data = True
-						# print("THE NEXT THING IS EMPTY!")
 						break
 			except:
 				pass
-		# print(index)
-		# print("THE LATEST REG DATA")
-		# print(reg_data)
-		# print()
+
 		reg_stats = []
 		reg_stats = np.asarray(reg_stats)
 
 
-
-
-
-
-		#SANDBOX END *******************************************************
-
+		#Advanced Stats
 		adv_table_rows = tables[4].findAll('tr')
 		adv_data = adv_table_rows[len(adv_table_rows)-2].findAll('td')
 
@@ -99,18 +87,9 @@ def statRetrieval(player):
 					adv_data_next = adv_table_rows[d+1].findAll('td')
 					if(adv_data_next[0].text == ''):
 						found_adv_data = True
-						# print("THE NEXT THING IS EMPTY!")
 						break
 			except:
 				pass
-		# print(index)
-		# print("THE LATEST ADV DATA")
-		# print(adv_data)
-		# print()
-
-
-
-
 
 		adv_stats = []
 		adv_stats = np.asarray(adv_stats)
@@ -150,7 +129,6 @@ def statRetrieval(player):
 		# print("PFT:")
 		# print(np.asarray(player_feature_tensor))
 
-		np.savetxt(DATA_FILE, player_feature_tensor,fmt='%1.3f', delimiter=',', newline='\r\n')
 		print(colored("STATS FETCHED", 'green'))
 		return player_feature_tensor
 	else:

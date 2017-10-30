@@ -1,7 +1,7 @@
 #player class
 class Player:
 
-	def __init__(self, name, stats):
+	def __init__(self, name=None, stats=None):
 		self.name = name
 		self.stat_tensor = stats
 
@@ -13,3 +13,4 @@ class Player:
 
 	def getName(self):
 		return self.name
+

@@ -1,19 +1,13 @@
-# Predicting the 2017-2018 NBA MVP (predictions updated weekly)
+# Predicting the 2017-2018 NBA MVP (predictions updated daily)
 Current frontrunner: Giannis Antetokounmpo
 
 <img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&w=350&h=254" width="175" height="127">
 
-### week 1 predictions (top 3 after one week of NBA)
+### today's predictions (you can check earlier commits for past results)
 
-| :goat: `Giannis Antetokounmpo` | :trophy: `Stephen Curry` | :boat: `Blake Griffin` |
+| :goat: `Giannis Antetokounmpo` | :trophy: `Stephen Curry` | :crown: `Demarcus Cousins` |
 |:---:|:---:|:---:|
-| 30%(1) | 20%(2) | 10%(3) |
-
-### preseason predictions (chances of the top 2 candidates)
-
-| `James Harden` | `Kevin Durant` | `Anthony Davis` | `Kawhi Leonard` |
-|:---:|:---:|:---:|:---:|
-| 40%(1) | 20%(2) | 20%(2) | 20%(2) |
+| 50%(1) | 20%(2) | 10%(3) |
 
 ### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
 
