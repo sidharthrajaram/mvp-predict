@@ -7,7 +7,7 @@ Current frontrunner: Giannis Antetokounmpo
 
 | :goat: `Giannis Antetokounmpo` | :trophy: `Stephen Curry` | :crown: `Demarcus Cousins` |
 |:---:|:---:|:---:|
-| 50%(1) | 20%(2) | 10%(3) |
+| 50%(1) | 20%(2) | 20%(2) |
 
 ### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
 
