@@ -5,9 +5,9 @@ Current frontrunner: Giannis Antetokounmpo
 
 ### today's predictions (you can check earlier commits for past results)
 
-| :goat: `Giannis Antetokounmpo` | :trophy: `Stephen Curry` | :crown: `Demarcus Cousins` |
+| `Giannis Antetokounmpo` | `DeMarcus Cousins` | `Anthony Davis` |
 |:---:|:---:|:---:|
-| 50%(1) | 20%(2) | 20%(2) |
+| 50%(1) | 30%(2) | 10%(2) |
 
 ### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
 
