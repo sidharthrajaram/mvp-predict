@@ -1,7 +1,7 @@
 # Predicting the 2017-2018 NBA MVP (predictions updated daily)
 Current frontrunner: Giannis Antetokounmpo
 
-<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&w=350&h=254" width="175" height="127">
+<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254" width="175" height="127">
 
 ### today's predictions (you can check earlier commits for past results)
 
