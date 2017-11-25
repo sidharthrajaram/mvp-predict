@@ -1,5 +1,5 @@
 # Predicting the 2017-2018 NBA MVP (predictions updated daily)
-Current frontrunner: James Harden
+Current frontrunner: LeBron James
 
 <img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254" width="175" height="127">
 
