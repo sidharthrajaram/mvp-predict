@@ -5,9 +5,9 @@ Current frontrunner: LeBron James
 
 ### today's predictions (you can check earlier commits for past results)
 
-| `LeBron James` | `James Harden` | `Giannis Antetokounmpo` |
+| `James Harden` | `LeBron James` | `Giannis Antetokounmpo` |
 |:---:|:---:|:---:|
-| 50%(1) | 20%(2) | 20%(3) |
+| 40%(1) | 30%(2) | 20%(3) |
 
 ### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
 
