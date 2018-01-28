@@ -16,7 +16,7 @@ test_indices = [17, 225, 217, 157, 104, 125, 445, 474, 271, 451, 179, 106, 469, 
 43, 44, 78, 99, 105, 189, 192, 33, 65, 67, 88, 80, 21, 18, 24, 362, 277, 234, 431, 321, 1, 3]
 
 #179 add harden after injury
-mvp_pool = [17, 18, 56, 72, 97, 104, 106, 109, 125, 157, 162, 171, 175, 179, 192, 217, 225, 
+mvp_pool = [17, 18, 56, 72, 104, 106, 109, 125, 157, 162, 171, 175, 179, 192, 217, 225, 
 276, 284, 367, 381, 451, 469, 474, 478, 421]
 # test_indices = [17, 225, 217, 192, 189, 73, 104]
 
@@ -301,7 +301,56 @@ if __name__ == "__main__":
 		except(TypeError):
 			pass
 
+	#StatsProduced
+	closest_val_sp = 100000
+	closest_pl_sp = elig[0]
+	greatest_val_sp = -100000
+	greatest_pl_sp = elig[0]
 
+	for player in elig:
+		try:
+			#SP
+			player_sp = player.getStats()[0][23]+player.getStats()[0][18]+player.getStats()[0][17]
+			mvp_sp = mvp_bloop[39]+mvp_bloop[40]+mvp_bloop[45]
+			sp_diff = player_sp - mvp_sp
+			if(sp_diff > greatest_val_sp):
+				greatest_val_sp = sp_diff
+				greatest_pl_sp = player
+
+			if(abs(sp_diff) < closest_val_sp):
+				closest_val_sp = abs(sp_diff)
+				closest_pl_sp = player
+
+		except(TypeError):
+			pass
+
+	#DRBs + Blocks + Steals
+	closest_val_def = 100000
+	closest_pl_def = elig[0]
+	greatest_val_def = -100000
+	greatest_pl_def = elig[0]
+
+	for player in elig:
+		try:
+			#SP
+			player_def = player.getStats()[0][16]+player.getStats()[0][20]+player.getStats()[0][19]
+			mvp_def = mvp_bloop[38]+mvp_bloop[41]+mvp_bloop[42]
+			def_diff = player_def - mvp_def
+			if(def_diff > greatest_val_def):
+				greatest_val_def = def_diff
+				greatest_pl_def = player
+
+			if(abs(def_diff) < closest_val_def):
+				closest_val_def = abs(def_diff)
+				closest_pl_def = player
+
+		except(TypeError):
+			pass
+
+
+
+
+	#the printz
 	print()
 	print('{0} is closest to the MVP PER statline with a margin of {1}.'.format(closest_pl_per, closest_val_per))
 	print('{0} is most above the MVP PER statline with a margin of {1}.'.format(greatest_pl_per, greatest_val_per))
@@ -317,7 +366,12 @@ if __name__ == "__main__":
 	print()
 	print('{0} is closest to the MVP +/- statline with a margin of {1}.'.format(closest_pl_bpm, closest_val_bpm))
 	print('{0} is most above the MVP +/- statline with a margin of {1}.'.format(greatest_pl_bpm, greatest_val_bpm))
-
+	print()
+	print('{0} is closest to the MVP StatsProduced with a margin of {1}.'.format(closest_pl_sp, closest_val_sp))
+	print('{0} is most above the MVP StatsProduced with a margin of {1}.'.format(greatest_pl_sp, greatest_val_sp))
+	print()
+	print('{0} is closest to the MVP StatsProduced with a margin of {1}.'.format(closest_pl_def, closest_val_def))
+	print('{0} is most above the MVP StatsProduced with a margin of {1}.'.format(greatest_pl_def, greatest_val_def))
 
 
 
