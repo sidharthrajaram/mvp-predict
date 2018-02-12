@@ -5,9 +5,9 @@ Current frontrunner: James Harden
 
 ### today's predictions (you can check earlier commits for past results)
 
-| `James Harden` | `Stephen Curry` | `LeBron James` | `Russell Westbrook` | `Giannis Antetokounmpo` |
+| `James Harden` | `Giannis Antetokounmpo` | `LeBron James` | `Anthony Davis` | `Kevin Durant` |
 |:---:|:---:|:---:|:---:|:---:|
-| 29%(1) | 14%(2) | 14%(2) | 14%(2) | 14%(2) |
+| 36%(1) | 29%(2) | 14%(3) | 7%(4) | 7%(4) |
 
 ### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
 
