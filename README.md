@@ -5,7 +5,7 @@ Current frontrunner: James Harden
 
 ### today's predictions (you can check earlier commits for past results)
 
-| `James Harden` | `Anthony Davis` | `LeBron James` | `Giannis Antetokounmpo` |
+| `James Harden` | `Anthony Davis` | `LeBron James` | `Russell Westbrook` |
 |:---:|:---:|:---:|:---:|
 | 29%(1) | 21%(2) | 14%(3) | 7%(4) |
 

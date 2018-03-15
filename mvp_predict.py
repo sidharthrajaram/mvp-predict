@@ -367,11 +367,11 @@ if __name__ == "__main__":
 	print('{0} is closest to the MVP +/- statline with a margin of {1}.'.format(closest_pl_bpm, closest_val_bpm))
 	print('{0} is most above the MVP +/- statline with a margin of {1}.'.format(greatest_pl_bpm, greatest_val_bpm))
 	print()
-	print('{0} is closest to the MVP StatsProduced with a margin of {1}.'.format(closest_pl_sp, closest_val_sp))
-	print('{0} is most above the MVP StatsProduced with a margin of {1}.'.format(greatest_pl_sp, greatest_val_sp))
+	print('{0} is closest to the MVP TotalOffense with a margin of {1}.'.format(closest_pl_sp, closest_val_sp))
+	print('{0} is most above the MVP TotalOffense with a margin of {1}.'.format(greatest_pl_sp, greatest_val_sp))
 	print()
-	print('{0} is closest to the MVP StatsProduced with a margin of {1}.'.format(closest_pl_def, closest_val_def))
-	print('{0} is most above the MVP StatsProduced with a margin of {1}.'.format(greatest_pl_def, greatest_val_def))
+	print('{0} is closest to the MVP TotalDefense with a margin of {1}.'.format(closest_pl_def, closest_val_def))
+	print('{0} is most above the MVP TotalDefense with a margin of {1}.'.format(greatest_pl_def, greatest_val_def))
 
 
 
