@@ -7,7 +7,7 @@ Current frontrunner: LeBron James
 
 | `LeBron James` | `James Harden` | `Anthony Davis` |
 |:---:|:---:|:---:|
-| 36%(1) | 21%(2) | 14%(3) |
+| 29%(1) | 21%(2) | 14%(3) |
 
 ### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
 
