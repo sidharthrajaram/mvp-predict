@@ -5,7 +5,7 @@ Final frontrunner: James Harden
 
 ### END OF SEASON predictions (you can check earlier commits for past results)
 
-| `James Harden` | `James Harden` | `Anthony Davis` | `Russell Westbrook` |
+| `James Harden` | `LeBron James` | `Anthony Davis` | `Russell Westbrook` |
 |:---:|:---:|:---:|:---:|
 | 29%(1) | 21%(2) | 14%(3) | 7%(4) |
 
