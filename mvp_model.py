@@ -9,11 +9,7 @@ pd.options.display.float_format = '{:.1f}'.format
 
 # field_df = pd.read_csv('data/mvpfield.csv')
 years = ['2016', '2017', '2018']
-
-field_df = pd.read_csv('data/mvp2016.csv')
-
 mvp_index = 0
-mvp_stats = field_df.loc[mvp_index]
 stats_of_interest = ['VORP','PER','BPM','WS','USG%','TOV%']
 zscore_list = []
 
@@ -35,7 +31,7 @@ def zscore_model():
             # print('mvp z-score for {} is {}'.format(stat, yearly_zscores[mvp_index]))
 
         # print()
-        zscore_list.append((stat_zscores/(len(years)))[0])
+        zscore_list.append((stat_zscores/(len(years)))[mvp_index])
 
     # print()
     # print()
