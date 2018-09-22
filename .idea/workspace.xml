@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893a96ba-3c3e-4228-ad1f-8b3888068768" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/forecast.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mvptest.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvp_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mvp_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
     </list>
@@ -26,23 +28,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="png" value="1" />
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3397" />
+          <entry key="py" value="3920" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3397" />
+          <entry key="Python" value="3920" />
         </counts>
       </usages-collector>
     </session>
@@ -52,11 +54,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvp_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1537601131333" expanded="true" signature="353:375" ph="..." />
+                <marker date="1537641187354" expanded="true" signature="367:389" ph="..." />
               </folding>
             </state>
           </provider>
@@ -69,7 +71,17 @@
               <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <marker date="1537641216226" expanded="true" signature="1235:1473" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forecast.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -90,6 +102,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/new_predict.py" />
+        <option value="$PROJECT_DIR$/forecast.py" />
         <option value="$PROJECT_DIR$/mvp_model.py" />
         <option value="$PROJECT_DIR$/predict.py" />
       </list>
@@ -207,13 +220,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/forecast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvp_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1537601131333" expanded="true" signature="353:375" ph="..." />
+            <marker date="1537641187354" expanded="true" signature="367:389" ph="..." />
           </folding>
         </state>
       </provider>
@@ -224,6 +244,7 @@
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <marker date="1537641216226" expanded="true" signature="1235:1473" ph="..." />
           </folding>
         </state>
       </provider>
