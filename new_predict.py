@@ -17,10 +17,10 @@ def eucliddist(a,b):
         sum += (a[i]-b[i])**2
     return math.sqrt(sum)
 
-def produceZs(file_path):
+def produceZs():
     global num_players
 
-    field_df = pd.read_csv('data/'+file_path+'.csv')
+    field_df = pd.read_csv('data/'+FILE_PATH+'.csv')
     num_players = len(field_df.index)
 
     for stat in stats_of_interest:
@@ -40,24 +40,23 @@ def compilePlayerZ():
             player_stats.append(zscores[i])
         players.append(player_stats)
 
-def findClosest():
-    distances = list(map(lambda player: eucliddist(player, MVP_MODEL), players))
-    # for dist in distances:
-    #     print(dist)
-    # print()
-    return distances.index(min(distances))
+def findMetricRanking():
+    field_df = pd.read_csv('data/' + FILE_PATH + '.csv')
+    distances = list(map(lambda player: [field_df.iloc[players.index(player)][field_df.columns.get_loc('Player')], eucliddist(player, MVP_MODEL)], players))
+    return sorted(distances, key=lambda generated_metric: generated_metric[1])
 
-def getName(index, file_path):
-    field_df = pd.read_csv('data/' + file_path + '.csv')
+def getName(index):
+    field_df = pd.read_csv('data/' + FILE_PATH + '.csv')
     return field_df.iloc[index][field_df.columns.get_loc('Player')]
 
-
-print("mvp z-score compared to top 20 PER players")
+#test
+print("mvp z-score model compared to top 20 PER players")
 print(stats_of_interest)
 print(MVP_MODEL)
 print()
 
-produceZs(FILE_PATH)
+produceZs()
 compilePlayerZ()
-closest_match = findClosest()
-print(getName(closest_match, FILE_PATH))
+ranking = findMetricRanking()
+for rank in ranking:
+    print('{} {}: {}'.format(ranking.index(rank)+1, rank[0], rank[1]))
