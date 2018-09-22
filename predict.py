@@ -9,7 +9,7 @@ field_zscores = []
 players = []
 
 MVP_MODEL = zscore_model()
-FILE_PATH = 'mvp2014'
+FILE_PATH = 'mvp2018'
 
 def eucliddist(a,b):
     sum = 0.0
