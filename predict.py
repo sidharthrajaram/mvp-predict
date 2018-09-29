@@ -9,7 +9,7 @@ field_zscores = [] #each object inside is a list of the zscores for each particu
 players = [] #each object inside is a list of a player's zscores for each stat of interest (by Player)
 
 MVP_MODEL = zscore_model() #list of MVP's zscores for each stat of interest
-FILE_PATH = 'mvpForecast'
+FILE_PATH = 'mvp2018'
 field_df = pd.read_csv('data/' + FILE_PATH + '.csv')
 
 def eucliddist(a,b):

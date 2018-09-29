@@ -101,6 +101,7 @@ def getChange(delta_tuple):
         elif age_state == 4:
             weight = -0.575
 
+        #mip candidate
         if delta_tuple[3] == True:
             weight = 0.075
 
