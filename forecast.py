@@ -76,30 +76,10 @@ def getDelta(stats_tuple):
 def getChange(delta_tuple):
     age = delta_tuple[1]
     stat_delta = delta_tuple[0]
-    age_state = 0
-    weight = 1
-
-    if 25 <= age <= 28:
-        age_state = 1
-    elif 29 <= age <= 30:
-        age_state = 2
-    elif 31 <= age <= 33:
-        age_state = 3
-    elif 34 <= age:
-        age_state = 4
-
 
     if delta_tuple[2] == True:
-        if age_state == 0:
-            weight = 1.1
-        elif age_state == 1:
-            weight = 1.15
-        elif age_state == 2:
-            weight = 0.1
-        elif age_state == 3:
-            weight = 0.33
-        elif age_state == 4:
-            weight = -0.575
+
+        weight = (28-age)*0.15
 
         #mip candidate
         if delta_tuple[3] == True:
@@ -109,7 +89,7 @@ def getChange(delta_tuple):
 
     # only one year of exp
     else:
-        weight = 0.11
+        weight = (28-age)*0.015
         return weight*stat_delta
 
 def updatedStatRow(df, change):
@@ -121,22 +101,76 @@ def updatedStatRow(df, change):
 
     return latest_stats
 
-def writeCSV():
+
+# ****************************************************************************
+# EXPERIMENT **************************************
+def adjustment(delta_tuple):
+    age = delta_tuple[1]
+    adjustment = 0.0
+
+    if age <= 28:
+        adjustment = (28 - age) * 0.025
+    else:
+        adjustment = (28 - age) * 0.01
+
+    weight = 1 + adjustment
+    return weight
+
+def newUpdatedStatRow(df, adjustment):
+    latest_stats = np.array(list(filter(lambda a: str(a) != 'nan', df.iloc[-2].tolist())))
+
+    for i in range(len(latest_stats)-start_ind):
+        np.put(latest_stats, i+start_ind, adjustment*float(latest_stats[i+start_ind]))
+
+    return latest_stats
+
+
+def newWriteCSV():
     the_full_thang = []
     header_row = field_df.columns.values.tolist()
     the_full_thang.append(header_row)
+
     for name in player_names:
         df = getPlayerStats(name)
         latest_szns = getLatest(df)
         delta_tuple = getDelta(latest_szns)
-        change = getChange(delta_tuple)
-        new_stat_row = updatedStatRow(df, change).tolist()
+        change = adjustment(delta_tuple)
+
+        new_stat_row = newUpdatedStatRow(df, change).tolist()
         new_stat_row.insert(0, name)
         the_full_thang.append(new_stat_row)
+
     print(the_full_thang)
 
     with open(FORECAST_FILE, 'w', newline="") as f:
         writer = csv.writer(f)
         writer.writerows(the_full_thang)
 
-writeCSV()
+# EXPERIMENT **************************************
+# ****************************************************************************
+
+
+
+def writeCSV():
+    the_full_thang = []
+    header_row = field_df.columns.values.tolist()
+    the_full_thang.append(header_row)
+
+    for name in player_names:
+        df = getPlayerStats(name)
+        latest_szns = getLatest(df)
+        delta_tuple = getDelta(latest_szns)
+        change = getChange(delta_tuple)
+
+        new_stat_row = updatedStatRow(df, change).tolist()
+        new_stat_row.insert(0, name)
+        the_full_thang.append(new_stat_row)
+
+    print(the_full_thang)
+
+    with open(FORECAST_FILE, 'w', newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(the_full_thang)
+
+# writeCSV()
+newWriteCSV()
