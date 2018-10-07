@@ -24,9 +24,6 @@ Final frontrunner: James Harden
 |:---:|:---:|:---:|:---:|
 | 29%(1) | 21%(2) | 14%(3) | 7%(4) |
 
-In fact, my top 3 MVP predictions were in line with ESPN's prediction (except their's was done by humans and votes). Check out their top three below:
-![Alt text](/pic.png?raw=true "ESPN")
-
 ### In October of 2017, mvp-predict generated this as the projected MVP statline:
 
 | `ppg` | `per` | `vorp` | `+/-` | `ts%` |
