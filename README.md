@@ -1,5 +1,9 @@
-![Alt text](/mvp_cover.png?raw=true "ESPN")
+![Alt text](/mvppredict.png?raw=true "ESPN")
 
+## 2018 - 2019 Predictions
+Coming Soon. Check sidrajaram.me for latest info.
+
+## 2017 - 2018 Predictions
 Final frontrunner: James Harden
 
 <img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3992.png&w=350&h=254" width="175" height="127">
@@ -8,7 +12,7 @@ Final frontrunner: James Harden
 |:---:|:---:|:---:|:---:|:---:|
 | 30.4 | 29.8 | 8.3 | 10.9 | 0.619 |
 
-### My END OF SEASON predictions (you can check earlier commits for past results)
+### Predictions as of April 12, 2018
 
 | `James Harden` | `LeBron James` | `Anthony Davis` | `Russell Westbrook` |
 |:---:|:---:|:---:|:---:|
@@ -17,7 +21,7 @@ Final frontrunner: James Harden
 In fact, my top 3 MVP predictions were in line with ESPN's prediction (except their's was done by humans and votes). Check out their top three below:
 ![Alt text](/pic.png?raw=true "ESPN")
 
-### The projected statline for the 2017-2018 MVP is as follows (few noteworthy stats):
+### In October of 2017, mvp-predict generated this as the projected MVP statline:
 
 | `ppg` | `per` | `vorp` | `+/-` | `ts%` |
 |:---:|:---:|:---:|:---:|:---:|

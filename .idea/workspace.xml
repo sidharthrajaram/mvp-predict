@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893a96ba-3c3e-4228-ad1f-8b3888068768" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mvpForecast.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/mvpForecast.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forecast.py" beforeDir="false" afterPath="$PROJECT_DIR$/forecast.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/last_season/mvp.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_by_day_model/mvp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/last_season/mvp_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_by_day_model/mvp_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/last_season/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_by_day_model/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/last_season/scraped_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/day_by_day_model/scraped_stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/last_season/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_by_day_model/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvp_cover.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +25,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="md" value="1" />
           <entry key="png" value="1" />
           <entry key="py" value="20" />
         </counts>
@@ -38,16 +33,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="Python" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="md" value="284" />
           <entry key="py" value="8077" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="284" />
           <entry key="Python" value="8077" />
         </counts>
       </usages-collector>
@@ -55,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvp_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="705">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -70,14 +68,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forecast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="139" column="23" lean-forward="true" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+            <state relative-caret-position="126">
+              <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
               <folding>
                 <element signature="e#48#67#0" expanded="true" />
                 <marker date="1538878095985" expanded="true" signature="449:450" ph="..." />
                 <marker date="1538878095985" expanded="true" signature="2797:2799" ph="..." />
                 <marker date="1538878095985" expanded="true" signature="3494:4498" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -102,10 +112,11 @@
         <option value="$PROJECT_DIR$/sps.py" />
         <option value="$PROJECT_DIR$/mvp_model.py" />
         <option value="$PROJECT_DIR$/forecast.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1128" />
     <option name="height" value="963" />
@@ -158,10 +169,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1128" height="963" extended-state="0" />
+    <frame x="0" y="22" width="1670" height="963" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18247516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12249848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,10 +230,20 @@
     <entry file="file://$PROJECT_DIR$/mvp.py" />
     <entry file="file://$PROJECT_DIR$/mvp_predict.py" />
     <entry file="file://$PROJECT_DIR$/sps.py" />
+    <entry file="file://$PROJECT_DIR$/mvp_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/forecast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="139" column="23" lean-forward="true" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        <state relative-caret-position="126">
+          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
           <folding>
             <element signature="e#48#67#0" expanded="true" />
             <marker date="1538878095985" expanded="true" signature="449:450" ph="..." />
@@ -232,13 +253,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvp_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
