@@ -1,7 +1,13 @@
 ![Alt text](/mvppredict.png?raw=true "ESPN")
 
 ## 2018 - 2019 Predictions
-Coming Soon. Check sidrajaram.me for latest info.
+<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254" width="175" height="127">
+
+| `LeBron James` | `James Harden` | `Giannis Antetokounmpo` | `Anthony Davis` |
+|:---:|:---:|:---:|:---:|
+| 0.878(1) | 0.856(2) | 0.807(3) | 0.736(4) |
+
+Check sidrajaram.me for the full ranking and the method behind it.
 
 ## 2017 - 2018 Predictions
 Final frontrunner: James Harden
