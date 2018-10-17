@@ -1,18 +1,18 @@
 ![Alt text](/mvppredict.png?raw=true "ESPN")
 
 ## 2018 - 2019 Predictions
-<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254" width="175" height="127">
+<img src="https://d2cwpp38twqe55.cloudfront.net/req/201810111/images/players/antetgi01.jpg">
 
-| `LeBron James` | `James Harden` | `Giannis Antetokounmpo` | `Anthony Davis` |
+| `Giannis Antetokounmpo` | `Lebron James` | `James Harden` | `Anthony Davis` |
 |:---:|:---:|:---:|:---:|
-| 0.878(1) | 0.856(2) | 0.807(3) | 0.736(4) |
+| 0.899(1) | 0.871(2) | 0.835(3) | 0.830(4) |
 
-Check sidrajaram.me for the full ranking and the method behind it.
+This season I'm using a different methodology than last season. Check sidrajaram.me for the full ranking and the method behind it.
 
 ## 2017 - 2018 Predictions
 Final frontrunner: James Harden
 
-<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3992.png&w=350&h=254" width="175" height="127">
+<img src="https://d2cwpp38twqe55.cloudfront.net/req/201810111/images/players/hardeja01.jpg">
 
 | `ppg` | `per` | `vorp` | `+/-` | `ts%` |
 |:---:|:---:|:---:|:---:|:---:|
