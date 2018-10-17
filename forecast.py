@@ -36,9 +36,9 @@ def getPlayerStats(name, advanced=True):
     tables = soup.findAll('table')
 
     if advanced:
-        table = tables[4]
+        table = tables[5]
     else:
-        table = tables[0]
+        table = tables[1]
 
     df = pd.read_html(str(table))[0]
     return df
