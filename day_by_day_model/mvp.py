@@ -1,8 +1,6 @@
 #mvp model (blueprint), real prediction done in mvp_predict
-from sklearn import svm
 import numpy as np
 import csv
-from player import Player
 
 np.random.seed(1)
 

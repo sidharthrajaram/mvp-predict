@@ -22,7 +22,7 @@ for row in mvpReader:
 #MVP BLUEPRINT GENERATION
 
 CSV_START_COLUMN = 7
-CSV_END_COLUMN = 54
+CSV_END_COLUMN = 53
 
 mvp_stats = np.genfromtxt('data/mvps.csv', delimiter=',', skip_header=1,
     usecols=np.arange(CSV_START_COLUMN,CSV_END_COLUMN), invalid_raise=False)
@@ -61,11 +61,6 @@ def blueprint():
 	mvp_bloop = np.add(bloop_one, bloop_two)
 	mvp_bloop = np.add(mvp_bloop, bloop_three)
 	return mvp_bloop
-
-def similarity(player_stat, stat_r, stat_c, bp_ind):
-	#0 - 47
-	return player_stat[stat_r][stat_c] - mvp_bp[bp_ind]
-
 
 if __name__ == "__main__":
 	mvp_bp = blueprint()
