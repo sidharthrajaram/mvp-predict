@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893a96ba-3c3e-4228-ad1f-8b3888068768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dailypredictions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mvps.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/mvps.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_by_day_model/mvp.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_by_day_model/mvp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_by_day_model/scraped_stats.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailypredictions.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailypredictions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvp_statline.py" beforeDir="false" afterPath="$PROJECT_DIR$/mvp_statline.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,54 +28,55 @@
         <counts>
           <entry key="md" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="27" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="396" />
-          <entry key="py" value="11005" />
+          <entry key="py" value="11192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="396" />
-          <entry key="Python" value="11005" />
+          <entry key="Python" value="11192" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dailypredictions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            <state relative-caret-position="689">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1539990973076" expanded="true" signature="1601:1603" ph="..." />
-                <marker date="1539990973076" expanded="true" signature="1639:1640" ph="..." />
-                <marker date="1539990973076" expanded="true" signature="1639:1644" ph="..." />
-                <marker date="1539990973076" expanded="true" signature="2222:2385" ph="..." />
-                <marker date="1539990973076" expanded="true" signature="2444:3337" ph="..." />
+                <marker date="1539991460901" expanded="true" signature="1601:1603" ph="..." />
+                <marker date="1539991460901" expanded="true" signature="1639:1640" ph="..." />
+                <marker date="1539991460901" expanded="true" signature="1639:1644" ph="..." />
+                <marker date="1539991460901" expanded="true" signature="2222:2385" ph="..." />
+                <marker date="1539991460901" expanded="true" signature="2444:3986" ph="..." />
+                <marker date="1539991460901" expanded="true" signature="3246:3964" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvp_statline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+            <state relative-caret-position="320">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding>
                 <element signature="e#29#47#0" expanded="true" />
               </folding>
@@ -109,14 +106,14 @@
         <option value="$PROJECT_DIR$/mvp_model.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/mvp.py" />
-        <option value="$PROJECT_DIR$/mvp_statline.py" />
         <option value="$PROJECT_DIR$/dailypredictions.py" />
+        <option value="$PROJECT_DIR$/mvp_statline.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4" />
-    <option name="y" value="33" />
+    <option name="x" value="17" />
+    <option name="y" value="22" />
     <option name="width" value="1670" />
     <option name="height" value="963" />
   </component>
@@ -168,7 +165,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="22" width="1670" height="963" extended-state="6" />
+    <frame x="0" y="22" width="1670" height="963" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12249848" />
@@ -236,16 +233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvp_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forecast.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="794">
@@ -280,27 +267,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvp_statline.py">
+    <entry file="file://$PROJECT_DIR$/mvp_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
-            <element signature="e#29#47#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dailypredictions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        <state relative-caret-position="689">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1539990973076" expanded="true" signature="1601:1603" ph="..." />
-            <marker date="1539990973076" expanded="true" signature="1639:1640" ph="..." />
-            <marker date="1539990973076" expanded="true" signature="1639:1644" ph="..." />
-            <marker date="1539990973076" expanded="true" signature="2222:2385" ph="..." />
-            <marker date="1539990973076" expanded="true" signature="2444:3337" ph="..." />
+            <marker date="1539991460901" expanded="true" signature="1601:1603" ph="..." />
+            <marker date="1539991460901" expanded="true" signature="1639:1640" ph="..." />
+            <marker date="1539991460901" expanded="true" signature="1639:1644" ph="..." />
+            <marker date="1539991460901" expanded="true" signature="2222:2385" ph="..." />
+            <marker date="1539991460901" expanded="true" signature="2444:3986" ph="..." />
+            <marker date="1539991460901" expanded="true" signature="3246:3964" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp_statline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#29#47#0" expanded="true" />
           </folding>
         </state>
       </provider>

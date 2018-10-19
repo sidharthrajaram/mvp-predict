@@ -76,8 +76,6 @@ def findClosest():
     #test -> stat
     for stat in test_indices:
         # print(stat)
-        stat_label = test_labels[test_indices.index(stat)]
-        # print(stat_label)
 
         closest_diff = 100000.0
         closest_player_index = 0
@@ -104,9 +102,43 @@ def findClosest():
 
     return closest_folks
 
+def findBiggest():
+    biggest_folks = []
+    for stat in test_indices:
+        # print(stat)
+
+        biggest_stat = 0.0
+        biggest_player_index = 0
+
+        mvp_stat = mvp_bp[stat]
+        # print(mvp_stat)
+
+        for player in player_tensors:
+            # print(player_names[player_tensors.index(player)])
+            # print(player)
+            # print()
+            player_stat = player[stat]
+            # print(player_stat)
+
+            if(biggest_stat < player_stat):
+                biggest_stat = player_stat
+                biggest_player_index = player_tensors.index(player)
+
+        #to change
+        name = player_names[biggest_player_index]
+        biggest_folks.append([stat, name])
+
+    return biggest_folks
+
+
 print(mvp_bp)
 print()
 getAllPlayers()
 closest_people = findClosest()
 for pl in closest_people:
     print("{} was closest to the MVP line for {} with {}".format(pl[1], test_labels[test_indices.index(pl[0])], player_tensors[ player_names.index( pl[1] ) ][ pl[0] ] ))
+
+print()
+biggest_people = findBiggest()
+for pl in biggest_people:
+    print("{} was most above the MVP line for {} with {}".format(pl[1], test_labels[test_indices.index(pl[0])], player_tensors[ player_names.index( pl[1] ) ][ pl[0] ] ))
