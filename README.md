@@ -7,9 +7,14 @@
 |:---:|:---:|:---:|:---:|
 | 0.899(1) | 0.871(2) | 0.835(3) | 0.830(4) |
 
-### Notes
-
 This season I'm using a different methodology than last season. Check sidrajaram.me for the full ranking and the method behind it.
+
+#### Upon running my new model on last season's (2018) field, these were the results:
+| `James Harden` | `Anthony Davis` | `LeBron James` | `Karl Anthony Towns (?)` |
+|:---:|:---:|:---:|:---:|
+| 1.559(1) | 1.036(2) | 0.799(3) | 0.608(4) |
+
+### Notes
 
 *data/mvpForecast.csv* contains forecasted advanced stats for ESPN's top 20 NBA players of the 2018-2019 season.
 
@@ -24,12 +29,6 @@ This season I'm using a different methodology than last season. Check sidrajaram
 | `ppg` |  `rpg` |  `apg` | `per` | `vorp` | `+/-` | `ts%` |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 28.8 | 7.1 | 7.3 | 29.0 | 8.67 | 10.2 | 0.61 |
-
-#### Upon running my new model on last season's (2018) field, these were the results:
-| `James Harden` | `Anthony Davis` | `LeBron James` | `Karl Anthony Towns (?)` |
-|:---:|:---:|:---:|:---:|
-| 1.559(1) | 1.036(2) | 0.799(3) | 0.608(4) |
-
 
 ## 2017 - 2018 Predictions
 Final frontrunner: James Harden
