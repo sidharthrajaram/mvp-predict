@@ -3,18 +3,15 @@
 ## 2018 - 2019 Predictions
 <img src="https://d2cwpp38twqe55.cloudfront.net/req/201810111/images/players/antetgi01.jpg">
 
+
+| Player Name        | Rank       | 
+|:-------------:|:-------------:| 
 | `Giannis Antetokounmpo` | 0.899(1) |
-|:---:|:---:|
 | `Lebron James` | 0.871(2) | 
-|:---:|:---:|
 | `James Harden` | 0.835(3) | 
-|:---:|:---:|
 | `Anthony Davis` | 0.830(4) | 
-|:---:|:---:|
 | `Karl Anthony Towns` | 0.73(5) | 
-|:---:|:---:|
 | `Kawhi Leonard` | 0.55(6) | 
-|:---:|:---:|
 | `Nikola Jokic` | 0.33(7) | 
 
 
