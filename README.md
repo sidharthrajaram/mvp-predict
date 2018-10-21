@@ -1,8 +1,6 @@
 ![Alt text](/mvppredict.png?raw=true "ESPN")
 
 ## 2018 - 2019 Predictions
-<img src="https://d2cwpp38twqe55.cloudfront.net/req/201810111/images/players/antetgi01.jpg">
-
 
 | Player Name        | Rank       | 
 |:-------------:|:-------------:| 
