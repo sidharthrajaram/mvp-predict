@@ -7,10 +7,13 @@ import numpy as np
 from mvp_statline import blueprint
 mvp_bp = blueprint()
 
-test_indices = [2,3,5,13,16,20,21,24,39,40,45]
-test_labels = ['PER','TS%','FTr','USG%','WS','BPM','VORP','FG','TRB','AST','PPG']
+test_indices = [2,3,5,16,20,21,24,39,40,45]
+test_labels = ['PER','TS%','FTr','WS','BPM','VORP','FG','TRB','AST','PPG']
 
-player_names = ['Kevin Durant','Joel Embiid','Stephen Curry','James Harden','Kawhi Leonard']
+#this is what needs to be updated as the days go by
+player_names = ['Kevin Durant','Joel Embiid',
+'James Harden','Kawhi Leonard','Nikola Jokic','Anthony Davis',
+'Karl-Anthony Towns','Giannis Antetokounmpo','LeBron James']
 
 player_tensors = []
 
@@ -37,8 +40,8 @@ def getPlayerDataFrames(name):
     tables = soup.findAll('table')
 
     #change dep on website format
-    reg_table = tables[1]
-    adv_table = tables[5]
+    reg_table = tables[0]
+    adv_table = tables[4]
 
     reg_df = pd.read_html(str(reg_table))[0]
     adv_df = pd.read_html(str(adv_table))[0]

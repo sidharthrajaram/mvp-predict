@@ -9,7 +9,14 @@ field_zscores = [] #each object inside is a list of the zscores for each particu
 players = [] #each object inside is a list of a player's zscores for each stat of interest (by Player)
 
 MVP_MODEL = zscore_model() #list of MVP's zscores for each stat of interest
-FILE_PATH = input('Choose a player set (mvp2018 or mvpForecast): ')
+FILE_PATH = input('Choose a season (2018 or 2019): ')
+if FILE_PATH == '2018':
+    print('Predicting based off 2010, 2014, 2016, 2017')
+    FILE_PATH = 'mvp2018'
+else:
+    print('Predicting based off 2010, 2014, 2016, 2017, 2018')
+    FILE_PATH = 'mvpForecast'
+    
 field_df = pd.read_csv('data/' + FILE_PATH + '.csv')
 
 def eucliddist(a,b):
@@ -59,13 +66,13 @@ print()
 
 produceZs()
 compilePlayerZ()
-ranking = findScoreTrend()
-print("Trend Ranking:")
-for rank in ranking:
-    print('{} {}: {}'.format(ranking.index(rank)+1, rank[0], rank[1]))
+# ranking = findScoreTrend()
+# print("Trend Ranking:")
+# for rank in ranking:
+#     print('{} {}: {}'.format(ranking.index(rank)+1, rank[0], rank[1]))
 
 print()
-print("Overall Excellence:")
+print("Algorithm Ranking:")
 ranking = findAvgScore()
 for rank in ranking:
     print('{} {}: {}'.format(ranking.index(rank)+1, rank[0], rank[1]))

@@ -11,6 +11,7 @@ pd.options.display.float_format = '{:.1f}'.format
 years = ['2010', '2014', '2016', '2017', '2018']
 mvp_index = 0
 stats_of_interest = ['VORP','PER','WS','FTr','DWS','OWS','WinsAdded']
+
 zscore_list = []
 
 def zscore_model():
