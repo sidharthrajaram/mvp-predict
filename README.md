@@ -2,14 +2,14 @@
 
 ## 2018 - 2019 Predictions
 
-#### These are the weekly predictions for MVP (using last year's successful model):
-| `LeBron James` | `Kevin Durant` | `Nikola Jokic` | `Joel Embiid` | `James Harden` |
+#### These are the WEEKLY PREDICTIONS for MVP (using last year's successful model):
+| `Giannis Antetokounmpo` | `LeBron James` | `Kevin Durant` | `James Harden` | `Nikola Jokic` |
 |:---:|:---:|:---:|:---:|:---:|
-| 0.250 | 0.250 | 0.250 | 0.063 | 0.063 |
+| 0.375 | 0.125 | 0.125 | 0.125 | 0.125 |
 
 ^ these are updated weekly
 
-#### These predictions were made prior to the start of the season using a _newer approach_ as opposed to last year.
+#### PRESEASON PREDICTIONS - made prior to the start of the season using a _newer approach_ as opposed to last year.
 
 | Player Name        | Rank       | 
 |:-------------:|:-------------:| 
