@@ -3,9 +3,9 @@
 ## 2018 - 2019 Predictions
 
 #### These are the WEEKLY PREDICTIONS for MVP (using last year's successful model):
-| `Giannis Antetokounmpo` | `Kevin Durant` | `Joel Embiid` | `LeBron James` | `Anthony Davis` |
+| `Giannis Antetokounmpo` | `Kevin Durant` | `LeBron James` | `Joel Embiid` | `Anthony Davis` |
 |:---:|:---:|:---:|:---:|:---:|
-| 0.500 | 0.188 | 0.125 | 0.063 | 0.063 |
+| 0.375 | 0.313 | 0.125 | 0.063 | 0.063 |
 
 ^ these are updated weekly
 
