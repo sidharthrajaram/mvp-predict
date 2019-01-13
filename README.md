@@ -3,9 +3,9 @@
 ## 2018 - 2019 Predictions
 
 #### These are the WEEKLY PREDICTIONS for MVP (using last year's successful model):
-| `James Harden` | `Kawhi Leonard` | `Anthony Davis` | `Giannis Antetokounmpo` | `Stephen Curry` |
+| `James Harden` | `Anthony Davis` | `Kawhi Leonard` | `Kevin Durant` | `Stephen Curry` |
 |:---:|:---:|:---:|:---:|:---:|
-| 0.313 | 0.250 | 0.125 | 0.063 | 0.063 |
+| 0.375 | 0.250 | 0.125 | 0.125 | 0.063 |
 
 ^ these are updated weekly
 
