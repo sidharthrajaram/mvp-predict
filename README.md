@@ -2,14 +2,7 @@
 
 ## 2018 - 2019 Predictions
 
-#### These are the WEEKLY PREDICTIONS for MVP (using last year's successful model):
-| `James Harden` | `Giannis Antetokounmpo` | `-` | `-` | `-` |
-|:---:|:---:|:---:|:---:|:---:|
-| 0.500 | 0.500 | --- | --- | --- |
-
-^ these are updated weekly
-
-#### PRESEASON PREDICTIONS - made prior to the start of the season using a _newer approach_ as opposed to last year.
+#### Predictions made prior to the start of the season using a _newer approach_ as opposed to last year.
 
 | Player Name        | Rank       | 
 |:-------------:|:-------------:| 
