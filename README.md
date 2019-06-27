@@ -1,8 +1,28 @@
 ![Alt text](/mvppredict.png?raw=true "ESPN")
 
-## 2018 - 2019 Predictions
+# 2019 - 2020 Predictions
 
-#### Predictions made prior to the start of the season using a _newer approach_ as opposed to last year.
+#### Predictions made prior to the start of the season
+
+| Player Name        | Rank       | 
+|:-------------:|:-------------:| 
+| `Giannis Antetokounmpo` | n/a |
+| `LeBron James` | n/a | 
+| `James Harden` | n/a | 
+| `Anthony Davis` | n/a | 
+| `Karl Anthony Towns` | n/a | 
+| `Kawhi Leonard` | n/a | 
+| `Nikola Jokic` | n/a | 
+
+## Notes
+
+None yet.
+
+# 2018 - 2019 Predictions
+
+### UPDATE: YES, the official 2019 NBA MVP is Giannis Antetokounmpo. 
+
+#### Predictions made prior to the start of the season
 
 | Player Name        | Rank       | 
 |:-------------:|:-------------:| 
@@ -14,13 +34,14 @@
 | `Kawhi Leonard` | 0.55(6) | 
 | `Nikola Jokic` | 0.33(7) | 
 
-#### Upon running my new model on last season's (2018) field, these were the results:
+## Notes
+
+##### The methodology used for 2019 was different than the method used for 2018. The 2018 MVP was predicted using a progressive method that updated every week. The 2019 MVP was predicted entirely before the season began (I'll be using this method moving forward).
+
+##### Upon running the 2019 model on the 2018 field, these were the results:
 | `James Harden` | `Anthony Davis` | `LeBron James` | `Karl Anthony Towns (?)` |
 |:---:|:---:|:---:|:---:|
 | 1.559(1) | 1.036(2) | 0.799(3) | 0.608(4) |
-
-
-### Notes
 
 *data/mvpForecast.csv* contains forecasted advanced stats for ESPN's top 20 NBA players of the 2018-2019 season.
 
@@ -36,7 +57,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 28.8 | 7.1 | 7.3 | 29.0 | 8.67 | 10.2 | 0.61 |
 
-## 2017 - 2018 Predictions
+# 2017 - 2018 Predictions
 Final frontrunner: James Harden
 
 <img src="https://d2cwpp38twqe55.cloudfront.net/req/201810111/images/players/hardeja01.jpg">
