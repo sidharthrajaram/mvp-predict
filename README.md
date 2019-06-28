@@ -2,17 +2,17 @@
 
 # 2019 - 2020 Predictions
 
-#### Predictions made prior to the start of the season
+#### Predictions made prior to the start of the season (as of June 27, 2019)
 
 | Player Name        | Rank       | 
 |:-------------:|:-------------:| 
-| `Giannis Antetokounmpo` | n/a |
-| `LeBron James` | n/a | 
-| `James Harden` | n/a | 
-| `Anthony Davis` | n/a | 
-| `Karl Anthony Towns` | n/a | 
-| `Kawhi Leonard` | n/a | 
-| `Nikola Jokic` | n/a | 
+| `Giannis Antetokounmpo` | 1.393 |
+| `Rudy Gobert` | 1.331 | 
+| `James Harden` | 1.172 | 
+| `Nikola Jokic` | 0.881 | 
+| `Anthony Davis` | 0.828 | 
+| `Karl-Anthony Towns` | 0.629 | 
+| `Kevin Durant` | 0.339 | 
 
 ## Notes
 
