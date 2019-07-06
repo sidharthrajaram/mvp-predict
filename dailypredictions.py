@@ -7,13 +7,13 @@ import numpy as np
 from mvp_statline import blueprint
 mvp_bp = blueprint()
 
-test_indices = [2,3,5,16,20,21,24,39,40,45]
-test_labels = ['PER','TS%','FTr','WS','BPM','VORP','FG','TRB','AST','PPG']
+test_indices = [2,3,5,16,20,21,24,45]
+test_labels = ['PER','TS%','FTr','WS','BPM','VORP','FG','PPG']
 
 #this is what needs to be updated as the days go by
 player_names = ['Kevin Durant','Joel Embiid',
 'James Harden','Kawhi Leonard','Nikola Jokic','Anthony Davis',
-'Karl-Anthony Towns','Giannis Antetokounmpo','LeBron James']
+'Karl-Anthony Towns','Giannis Antetokounmpo','LeBron James', 'Stephen Curry']
 
 player_tensors = []
 

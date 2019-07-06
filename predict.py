@@ -9,13 +9,11 @@ field_zscores = [] #each object inside is a list of the zscores for each particu
 players = [] #each object inside is a list of a player's zscores for each stat of interest (by Player)
 
 MVP_MODEL = zscore_model() #list of MVP's zscores for each stat of interest
-FILE_PATH = input('Choose a season (2018 or 2019): ')
-if FILE_PATH == '2018':
-    print('Predicting based off 2010, 2014, 2016, 2017')
-    FILE_PATH = 'mvp2018'
-else:
-    print('Predicting based off 2010, 2014, 2016, 2017, 2018')
+FILE_PATH = input('Choose a season (2014, 2016, 2017, 2018, 2019, 2020): ')
+if FILE_PATH == '2020':
     FILE_PATH = 'mvpForecast'
+else:
+    FILE_PATH = 'mvp'+FILE_PATH
     
 field_df = pd.read_csv('data/' + FILE_PATH + '.csv')
 

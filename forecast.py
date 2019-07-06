@@ -24,7 +24,13 @@ def getPlayerStats(name, advanced=True):
     url = "https://www.basketball-reference.com/players/" + player_name[ln_fi] + "/" + last + first + "01.html"
     if(name=='Anthony Davis'):
         url = "https://www.basketball-reference.com/players/d/davisan02.html"
-
+    elif(name=='Clint Capela'):
+        url = "https://www.basketball-reference.com/players/c/capelca01.html"
+    elif(name=='D\'Angelo Russell'):
+        url = "https://www.basketball-reference.com/players/r/russeda01.html"
+    elif(name=='Kemba Walker'):
+        url = "https://www.basketball-reference.com/players/w/walkeke02.html"
+    print(url)
     with urllib.request.urlopen(url) as response:
         # UTF-8 doesn't support some initial character on the websites for some reason!
         r = response.read().decode('latin-1')
