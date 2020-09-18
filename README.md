@@ -1,6 +1,7 @@
 ![Alt text](/mvppredict.png?raw=true "ESPN")
 
 # 2019 - 2020 Predictions
+### UPDATE: YES, the official 2020 NBA MVP is Giannis Antetokounmpo. 
 
 #### Predictions made prior to the start of the season (as of June 27, 2019)
 
