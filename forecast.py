@@ -132,9 +132,9 @@ def newUpdatedStatRow(df, adjustment):
 
 
 def newWriteCSV():
-    the_full_thang = []
+    the_full_tensor_analytics_game_stats = []
     header_row = field_df.columns.values.tolist()
-    the_full_thang.append(header_row)
+    the_full_tensor_analytics_game_stats.append(header_row)
 
     for name in player_names:
         df = getPlayerStats(name)
@@ -144,13 +144,13 @@ def newWriteCSV():
 
         new_stat_row = newUpdatedStatRow(df, change).tolist()
         new_stat_row.insert(0, name)
-        the_full_thang.append(new_stat_row)
+        the_full_tensor_analytics_game_stats.append(new_stat_row)
 
-    print(the_full_thang)
+    print(the_full_tensor_analytics_game_stats)
 
     with open(FORECAST_FILE, 'w', newline="") as f:
         writer = csv.writer(f)
-        writer.writerows(the_full_thang)
+        writer.writerows(the_full_tensor_analytics_game_stats)
 
 # EXPERIMENT **************************************
 # ****************************************************************************
@@ -158,9 +158,9 @@ def newWriteCSV():
 
 
 def writeCSV():
-    the_full_thang = []
+    the_full_tensor_analytics_game_stats = []
     header_row = field_df.columns.values.tolist()
-    the_full_thang.append(header_row)
+    the_full_tensor_analytics_game_stats.append(header_row)
 
     for name in player_names:
         df = getPlayerStats(name)
@@ -170,13 +170,13 @@ def writeCSV():
 
         new_stat_row = updatedStatRow(df, change).tolist()
         new_stat_row.insert(0, name)
-        the_full_thang.append(new_stat_row)
+        the_full_tensor_analytics_game_stats.append(new_stat_row)
 
-    print(the_full_thang)
+    print(the_full_tensor_analytics_game_stats)
 
     with open(FORECAST_FILE, 'w', newline="") as f:
         writer = csv.writer(f)
-        writer.writerows(the_full_thang)
+        writer.writerows(the_full_tensor_analytics_game_stats)
 
 # writeCSV()
 newWriteCSV()
